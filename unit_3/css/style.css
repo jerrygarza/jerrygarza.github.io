@@ -1,0 +1,42 @@
+body {
+	text-align: center;
+	background-color: black;
+	color: #fff;
+	font-family: Helvetica;
+/* 	background-image: url('../images/social-medical.jpg');
+	background-size: cover; */
+}
+
+ul {
+	list-style-position: inside;
+}
+
+h1 {
+	color: #6C9FFF;
+}
+
+h3 {
+	color: #6C9FFF;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 30px;
+	color: #6C9FFF;
+}
+
+#section1 {
+	text-align: left;
+}
+
+#social-media-img {
+	text-align: center;
+}
+
+#main-body {
+	text-align: center;
+}
+
+#contact-me {
+	text-align: center;
+}
