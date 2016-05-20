@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+
+body {
+	background-color: #101E29;
+	color: #fff;
+	font-family: Helvetica;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1 {
+	color: #6C9FFF;
+}
+
+h3 {
+	color: #6C9FFF;
+}
+
+#nav-links {
+	padding-left: 65%;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 40px;
+	color: #6C9FFF;
+	text-align: right;
+	padding-top: 10%;
+	padding-right: 100px;
+}
+
+#section1 {
+	text-align: left;
+}
+
+#social-media {
+	background-image: url('../images/Technology-in-hand.jpeg');
+	background-size: cover;
+	text-align: left;
+	font-family: 'Droid Serif', serif;
+}
+
+#main-text {
+	font-size: 20px;
+	line-height: 25px;
+	text-align: left;
+	width: 40%;
+	padding-top: 13%;
+	padding-left: 55%;
+	padding-bottom: 7%;
+}
+
+#main-body {
+	text-align: center;
+}
+
+.services-title {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.services {
+	border-style: solid;
+	border-width: 1px;
+	border-color: whitesmoke;
+	line-height: 25px;
+	width: 35%;
+	padding: 25px;
+}
+
+#contact-me {
+	text-align: center;
+}
+
+.img-circle {
+	display: block;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 20em;
+}
