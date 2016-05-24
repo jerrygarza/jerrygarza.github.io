@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
 @import url(https://fonts.googleapis.com/css?family=Muli);
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #101E29;
 	color: #fff;
