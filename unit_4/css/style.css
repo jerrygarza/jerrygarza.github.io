@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
 @import url(https://fonts.googleapis.com/css?family=Muli);
 * { margin:0; padding:0; box-sizing:border-box; }
+
 body {
 	background-color: #101E29;
 	color: #fff;
@@ -19,6 +20,10 @@ h1 {
 	color: #6C9FFF;
 }
 
+h2 {
+	padding-bottom: 1em;
+}
+
 h3 {
 	color: #6C9FFF;
 }
@@ -27,13 +32,17 @@ a {
 	color: #586E7F;
 }
 
+img {
+	max-width: 18em;
+}
+
 .services-title {
 	text-align: center;
 	font-size: 1.2em;
 	font-family: 'Droid Serif', serif;
 }
 
-.services {
+.services-section {
 	font-family: 'Muli', sans-serif;
 	border-style: solid;
 	border-width: 1px;
@@ -46,15 +55,15 @@ a {
 .img-circle {
 	display: block;
 	border-radius: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	max-height: 20em;
+	margin: 2em auto;
+	max-height: 15em;
 }
 
 #nav-links {
 	font-family: 'Droid Serif', serif;
 	letter-spacing: 2px;
 	padding-left: 65%;
+	padding-bottom: 1em;
 }
 
 #slogan {
@@ -62,8 +71,8 @@ a {
 	font-size: 40px;
 	color: #6C9FFF;
 	text-align: right;
-	padding-top: 10%;
-	padding-right: 100px;
+	padding-top: 5em;
+	padding-right: 4em;
 }
 
 #section1 {
@@ -71,8 +80,9 @@ a {
 }
 
 #social-media {
-	background-image: url('../images/Technology-in-hand.jpeg');
-	background-size: cover;
+	background-image: url('../images/technology-in-hand.jpeg');
+	background-size: 100em;
+	background-repeat: no-repeat;
 	text-align: left;
 	font-family: 'Droid Serif', serif;
 }
@@ -82,10 +92,10 @@ a {
 	font-family: 'Muli', sans-serif;
 	line-height: 25px;
 	text-align: left;
-	width: 40%;
-	padding-top: 13%;
-	padding-left: 55%;
-	padding-bottom: 7%;
+	width: 75em;
+	padding-top: 2em;
+	padding-left: 47em;
+	padding-bottom: 15em;
 }
 
 #main-body {
