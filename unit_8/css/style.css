@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+header {
+	background-color: #101E29;
+	border: 1px black solid;
+	padding: 1.25em;
+}
+
+nav {
+	background-color: #192F40;
+	border: 1px black solid;
+	padding: 1.25em;
+}
+
+footer {
+	background-color: #101E29;
+	padding: 1.25em;
+}
+
+body {
+	background-color: #101E29;
+	color: #fff;
+	font-family: Helvetica;
+	font-size: 1em;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1 {
+	color: #6C9FFF;
+}
+
+h2 {
+	padding-bottom: 1em;
+}
+
+h3 {
+	color: #6C9FFF;
+}
+
+a {
+	color: #586E7F;
+}
+
+img {
+	max-width: 18em;
+}
+
+.services-title {
+	text-align: center;
+	font-size: 1.2em;
+	font-family: 'Droid Serif', serif;
+}
+
+.services-section {
+	font-family: 'Muli', sans-serif;
+	border-color: #586E7F;
+	line-height: 1.25em;
+	width: 33.3%;
+	padding: 1.25em;
+	float: left;
+}
+
+.img-circle {
+	display: block;
+	border-radius: 50%;
+	margin: 2em auto;
+	max-height: 15em;
+}
+
+#nav-links {
+	font-family: 'Droid Serif', serif;
+	letter-spacing: 2px;
+	padding-left: 65%;
+	padding-bottom: 1em;
+}
+
+#main-heading {
+	float: left;
+	padding-right: 65%;
+	padding: .30em;
+}
+
+#section1 {
+	text-align: left;
+}
+
+#social-media {
+	background-image: url('../images/technology-in-hand.jpeg');
+	max-width: 100%;
+	background-repeat: no-repeat;
+	text-align: left;
+	font-family: 'Droid Serif', serif;
+	padding: 20em;
+}
+
+#slogan {
+	background-color: #192F40;
+	font-style: italic;
+	font-size: 2em;
+	width: 53%;
+	color: #6C9FFF;
+	text-align: center;
+	float: right;
+	padding-top: .5em;
+}
+
+#main-text {
+	background-color: #192F40;
+	font-size: 20px;
+	font-family: 'Muli', sans-serif;
+	line-height: 1.25em;
+	text-align: left;
+	width: 25em;
+	float: right;
+	padding: 1.25em;
+	margin-bottom: 5em;
+}
+
+#main-body {
+	text-align: center;
+}
+
+#about-us {
+	clear: left;
+	background-color: #101E29;
+	border: 1px black solid;
+	padding: 1.25em;
+}
+
+#contact-me {
+	text-align: center;
+}
+
+#left {
+	background-color: #192F40;
+	border: 1px black solid;
+	padding: 1.25em;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #192F40;
+	border: 1px black solid;
+	padding: 1.25em;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
+@media only screen and (max-width: 800px) {
+	body {
+		font-size: 10px;
+	}
+	.em-unit {
+		background-color: #FF6A5E;
+		width: 4em;
+		height: 2em;
+	}
+	nav {
+    	float: none;
+  	}	
+  	nav a {
+      	margin: 0 1.6em .75em 0;
+  	}
+}
