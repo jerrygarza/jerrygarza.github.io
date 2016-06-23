@@ -39,7 +39,7 @@ h1 {
 }
 
 h2 {
-	padding-bottom: 1em;
+	color: #6C9FFF;
 }
 
 h3 {
@@ -51,7 +51,7 @@ a {
 }
 
 img {
-	max-width: 18em;
+	max-width: 50%;
 }
 
 .services-title {
@@ -95,34 +95,30 @@ img {
 
 #social-media {
 	background-image: url('../images/technology-in-hand.jpeg');
-	max-width: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
-	text-align: left;
+	max-width: 100%;
 	font-family: 'Droid Serif', serif;
 	padding: 20em;
 }
 
 #slogan {
-	background-color: #192F40;
 	font-style: italic;
-	font-size: 2em;
-	width: 53%;
-	color: #6C9FFF;
-	text-align: center;
-	float: right;
-	padding-top: .5em;
+	font-size: 1.75em;
+	text-align: left;
+	width: 25em;
+	padding-bottom: 1em;
 }
 
 #main-text {
-	background-color: #192F40;
 	font-size: 20px;
 	font-family: 'Muli', sans-serif;
 	line-height: 1.25em;
 	text-align: left;
 	width: 25em;
 	float: right;
-	padding: 1.25em;
-	margin-bottom: 5em;
+	background-color: #192F40;
+	padding: 1em;
 }
 
 #main-body {
@@ -163,21 +159,64 @@ img {
 	content: " ";
 	clear: both;
 	height: 0;
-	}
+}
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
 	body {
-		font-size: 10px;
+		font-size: 16px;
 	}
 	.em-unit {
 		background-color: #FF6A5E;
 		width: 4em;
 		height: 2em;
 	}
-	nav {
-    	float: none;
-  	}	
-  	nav a {
-      	margin: 0 1.6em .75em 0;
+
+  	h2 + p {
+  		display: none;
   	}
+
+  	#main-text {
+  		font-size: 1em;
+  		width: 70%;
+  		background: none;
+  		padding-top: 3em;
+  	}
+
+  	#social-media{
+  		background-size: 100%;
+  		padding: 8em;
+  	}
+
+}
+
+
+@media only screen and (max-width: 677px) {
+	#main-heading, #nav-links {
+		font-size: 3.1em;
+    	float: none;
+    	width: auto;
+    	padding: .5em;
+    	background: none;
+    	border: none;
+  	}
+
+  	#social-media {
+  		display: none;
+  	}
+
+  	.img-circle {
+  		display: none;
+  	}
+
+  	.services-section {
+  		float: none;
+  		width: auto;
+  	}
+
+  	#about-us, #left, #right {
+  		float: none;
+  		width: auto;
+  		padding: 1em;
+  	}
+
 }
